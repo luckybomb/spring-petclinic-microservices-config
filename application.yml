@@ -49,9 +49,6 @@ management:
 spring:
   profiles: mysql
   datasource:
-    schema: classpath*:db/mysql/schema.sql
-    data: classpath*:db/mysql/data.sql
     url: jdbc:mysql://petclinic-mysql-dev.pg1.krane.9rum.cc:3306/petclinic?useSSL=false
     username: petclinic
     password: petclinic
-    initialization-mode: ALWAYS

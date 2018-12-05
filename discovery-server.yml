@@ -1,9 +1,11 @@
 ﻿server:
   port: 8761
 
+spring:
+  profiles: default
 eureka:
   instance:
-    hostname: localhost
+    hostname: pet-discovery-server.pg1.krane.9rum.cc
   # standalone mode
   client:
     registerWithEureka: false

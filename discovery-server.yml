@@ -3,7 +3,7 @@
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: pet-config-server.pg1.krane.9rum.cc
   # standalone mode
   client:
     registerWithEureka: false

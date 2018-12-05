@@ -1,5 +1,9 @@
 server:
   port: 9090
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://pet-discovery-server.pg1.krane.9rum.cc:8761/eureka
 
 ---
 spring:
